@@ -1,0 +1,18 @@
+# secrets: never commit
+.env
+.env.*
+!.env.example
+
+node_modules
+.next
+.vercel
+.DS_Store
+*.log
+
+# big originals and working files stay local (resized copies live in web/public)
+photos/
+brand/
+Hamleys Photos.zip
+hamleys-claude-code-prompt.md
+.claude/
+.sanity/
