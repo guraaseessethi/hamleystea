@@ -5,7 +5,7 @@ import type { Redirect } from "next/dist/lib/load-custom-routes";
  * to the closest page on the new one. Specific products first, then catch-alls.
  * Order matters: Next uses the first match.
  */
-const p = (source: string, destination: string): Redirect => ({ source, destination, permanent: true });
+const p = (source: string, destination: string): Redirect => ({ source, destination, statusCode: 301 });
 
 // old product pages that have a direct match on the new site
 const PRODUCT_MAP: Record<string, string> = {
