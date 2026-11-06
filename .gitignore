@@ -10,8 +10,8 @@ node_modules
 *.log
 
 # big originals and working files stay local (resized copies live in web/public)
-photos/
-brand/
+/photos/
+/brand/
 Hamleys Photos.zip
 hamleys-claude-code-prompt.md
 .claude/
