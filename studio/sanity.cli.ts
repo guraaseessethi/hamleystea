@@ -7,4 +7,5 @@ export default defineCliConfig({
   },
   // Hosted Studio address: https://hamleys.sanity.studio (run `npm run deploy` once, signed in to Sanity)
   studioHost: "hamleys",
+  deployment: { appId: "usl6hev2wa450jua66uuaebj" },
 });
